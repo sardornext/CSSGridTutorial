@@ -56,8 +56,6 @@ h1 {
 #container {
   margin: 0 auto;
   width: 900px;
-
-  /* ⬇️⬇️⬇️ STYLE THE GRID CONTAINER HERE ⬇️⬇️⬇️ */
-
-  /* ⬆️⬆️⬆️ STYLE THE GRID CONTAINER HERE ⬆️⬆️⬆️ */
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
 }
