@@ -22,5 +22,9 @@
 
   /* ⬇️⬇️⬇️ STYLE THE GRID CONTAINER HERE ⬇️⬇️⬇️ */
 
+  display: grid;
+  grid-template: repeat(7, 1fr) / repeat(3, 1fr);
+  gap: 10px;
+
   /* ⬆️⬆️⬆️ STYLE THE GRID CONTAINER HERE ⬆️⬆️⬆️ */
 }
