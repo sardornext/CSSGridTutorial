@@ -17,8 +17,7 @@ div {
   Using repeat and fractional units, create a layout with: 
   - 5 equally sized columns
   - 4 equally sized rows */
-
-  /* ⬇️⬇️⬇️ STYLE THE GRID CONTAINER HERE ⬇️⬇️⬇️ */
-
-  /* ⬆️⬆️⬆️ STYLE THE GRID CONTAINER HERE ⬆️⬆️⬆️ */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
 }
