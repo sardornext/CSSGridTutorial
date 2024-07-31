@@ -19,12 +19,12 @@ body {
   height: 50%;
   min-height: 300px;
   border: 1px solid black;
-  /* 
-  Create a layout with: 
-  - 3 equally sized columns 
+  /*
+  Create a layout with:
+  - 3 equally sized columns
   - 2 rows.  The first should be twice as large as the second. */
 
-  /* ⬇️⬇️⬇️ STYLE THE GRID CONTAINER HERE ⬇️⬇️⬇️ */
-
-  /* ⬆️⬆️⬆️ STYLE THE GRID CONTAINER HERE ⬆️⬆️⬆️ */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
 }
