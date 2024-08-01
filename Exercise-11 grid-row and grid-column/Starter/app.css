@@ -25,13 +25,16 @@
 #pinkbox {
   background-color: #e91e63;
   /* ⬇️⬇️⬇️ STYLE THE PINK BOX HERE ⬇️⬇️⬇️ */
-
+  grid-column: 1 / 3;
+  grid-row: 2 / 4;
   /* ⬆️⬆️⬆️ STYLE THE PINK BOX HERE ⬆️⬆️⬆️ */
 }
 
 #purplebox {
   background-color: #9c27b0;
   /* ⬇️⬇️⬇️ STYLE THE PURPLE BOX HERE ⬇️⬇️⬇️ */
+  grid-column: 2 / 5;
+  grid-row: 4 / 5;
 
   /* ⬆️⬆️⬆️ STYLE THE PURPLE BOX HERE ⬆️⬆️⬆️ */
 }
@@ -39,6 +42,7 @@
 #bluebox {
   background-color: #2196f3;
   /* ⬇️⬇️⬇️ STYLE THE BLUE BOX HERE ⬇️⬇️⬇️ */
-
+  grid-column: 3 / 4;
+  grid-row: 1 / 4;
   /* ⬆️⬆️⬆️ STYLE THE BLUE BOX HERE ⬆️⬆️⬆️ */
 }
