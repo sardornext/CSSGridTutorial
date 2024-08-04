@@ -19,6 +19,9 @@
   - the middle column has a minimum size of 300px */
 
   /* ⬇️⬇️⬇️ STYLE THE GRID CONTAINER HERE ⬇️⬇️⬇️ */
+  display: grid;
+  grid-template-columns: 1fr minmax(300px, 1fr) 1fr;
+  /* grid-auto-flow: column; */
 
   /* ⬆️⬆️⬆️ STYLE THE GRID CONTAINER HERE ⬆️⬆️⬆️ */
 }
